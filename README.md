@@ -150,7 +150,3 @@ ROC-AUC: 0.9991785674321287
 
 
   
-
-
-df['isZeroOldBalance'] = (df['oldbalanceOrg'] == 0).astype(int)
-df['isZeroNewBalanceDest'] = (df['newbalanceDest'] == 0).astype(int)
